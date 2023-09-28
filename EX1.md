@@ -19,40 +19,46 @@ RENAME: This is used to rename an object existing in the database.
 </div>
 
 ## Query:
-### 1) Create a table student with the following fieds rollno,name,age,address,phoneno.
+Create a table student with the following fieds rollno,name,age,address,phoneno.
 
 ### SQL QUERY: 
-
-
-### OUTPUT:
-
-### 2) Change the above student table by adding another attribute department
-
-### SQL QUERY: 
+create table student(rollno numeric(10),name char(10),age numeric(5),address varchar(25),phoneno numeric(15));
 
 ### OUTPUT:
+![image](https://github.com/Brindha77/G2_DBMS/assets/118889143/728693e2-c052-41fa-bb2c-8e35b1a382c5)
 
+### QUERY: 
+Change the above student table by adding another attribute department
+### SQL QUERY:
+alter table student add department varchar(15);
 
-### 3) Drop the student table
+### OUTPUT:
+![image](https://github.com/Brindha77/G2_DBMS/assets/118889143/47f028ed-8cd4-450b-8b59-d234b317e39d)
+
+### QUERY: 
+Drop the student table
  
 ### SQL QUERY: 
-
-
+drop table student;
 ### OUTPUT:
+![image](https://github.com/Brindha77/G2_DBMS/assets/118889143/8032f4f9-c068-4eae-93c1-da89db122e78)
 
-
-### 4) Delete the student table using truncate keyword
+### QUERY:
+Delete the student table using truncate keyword
 
 ### SQL QUERY: 
-
+truncate table student;
 
 ### OUTPUT:
+![image](https://github.com/Brindha77/G2_DBMS/assets/118889143/1e56affd-8ec9-43e6-80af-94f52b2d0c17)
 
-
-
-### 5) Rename the student table to mystudent
+### QUERY:
+Rename the student table to mystudent
 
 ### SQL QUERY: 
-
+rename table student to mystudent;
 
 ### OUTPUT:
+![image](https://github.com/Brindha77/G2_DBMS/assets/118889143/0bd7e2ef-7238-45a4-81ea-13d6dda24a8a)
+### RESULT :
+The queries got the output and statifies the given question.
